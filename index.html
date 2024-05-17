@@ -13,7 +13,7 @@
 <body>
 <style>
 .documento {
-    background: pink;
+    background: #fff195;
 }
 </style>
 <div id="ejemplo">
@@ -30,12 +30,12 @@ Hola soy el estilo de la etiqueta
 
     <div class="header__image">
         <img src="assets/ilustracion-vector-dibujos-animados-lindo-cachorro-bull-terrier_42750-1076.avif"
-            alt="perrito animado" width="145px">
+            alt="perrito animado">
     </div>
 
     <div class="header__links-container">
         <ul class="header__links">
-            <li><a href="#">Quien soy</a></li>
+            <li><a href="#about me">Quien soy</a></li>
             <li><a href="#">Experiencia laboral</a></li>
             <li><a href="#">Formacion academica</a></li>
             <li><a href="#">Proyectos</a></li>
@@ -45,31 +45,38 @@ Hola soy el estilo de la etiqueta
 </header>
 
 
-    <section>
-        <div class="section-div">
-            <div>
-                <img src="https://i.pinimg.com/236x/38/75/b5/3875b50bce933719305b9d946b7ad687.jpg" alt="perrito acostado">
+<section>
+        <div class="card">
+            <div class="card__img">
+                <img src="https://i.pinimg.com/236x/38/75/b5/3875b50bce933719305b9d946b7ad687.jpg" alt="perrito acostado"/>
             </div>
 
-            <div>
-                <h1>Titulo 1</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum, quis praesentium molestias
+            <div class="card__info">
+                <h2 class="font--md">Titulo 1</h2>
+                <p class="font--sm">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum, quis praesentium molestias
                     ducimus, quaerat maxime quod doloribus fuga deleniti architecto dolores quisquam optio illo beatae
-                    provident sunt ullam? Beatae!</p>
+                    provident sunt ullam? Beatae!
+                </p>
             </div>
         </div>
-        <div>
-            <div>
-                <h2>Titulo 2</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque autem optio numquam animi nobis
-                    distinctio voluptatum, illum porro facilis exercitationem eaque, fugiat quia error. Ipsa nulla natus
-                    consequatur placeat commodi!</p>
-            </div>
-            <div>
-                <img src="https://img.freepik.com/vector-premium/perro-raza-bull-terrier-dibujos-animados-sentado_218319-81.jpg" alt="perrito con collar">
-            </div>
-        </div>
-    </section>
+ <!---->
+<div class="card">
+    <div class="card__img position-right">
+        <img src="https://img.freepik.com/vector-premium/perro-raza-bull-terrier-dibujos-animados-sentado_218319-81.jpg" alt="perrito con collar"/> 
+    </div>
+
+    <div class="card__info">
+        <h2 class="font--md">Titulo 2</h2>
+        <p class="font--sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum, quis praesentium molestias
+            ducimus, quaerat maxime quod doloribus fuga deleniti architecto dolores quisquam optio illo beatae
+            provident sunt ullam? Beatae!
+        </p>
+    </div>
+</div>
+ <!---->
+</section>
   
 <form action="">
     <div>
@@ -137,7 +144,7 @@ Hola soy el estilo de la etiqueta
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/">
+                    <a href="https://www.instagram.com/" target="_blank" ></a>
                         <i class="fa-brands fa-instagram"></i>
                     </a>
                 </li>
